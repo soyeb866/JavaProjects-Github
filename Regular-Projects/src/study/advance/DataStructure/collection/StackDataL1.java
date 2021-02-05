@@ -1,9 +1,9 @@
-package study.advance.DataStructure;
+package study.advance.DataStructure.collection;
 
 import java.util.ArrayList;
 import java.util.Stack;
 
-public class StackDataStructure {
+public class StackDataL1 {
 
 	static Stack<String> stack = new Stack<>();
 

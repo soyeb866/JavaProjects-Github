@@ -1,8 +1,8 @@
-package study.advance.DataStructure;
+package study.advance.DataStructure.collection;
 
 import java.util.LinkedList;
 
-public class LinkedListDataStructure {
+public class LinkedListL1 {
 	
 	public static void main(String[] args) {
 		LinkedList<Double> linkedList = new LinkedList<Double>();

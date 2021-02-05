@@ -1,10 +1,10 @@
-package study.advance.DataStructure;
+package study.advance.DataStructure.collection;
 
 import java.util.ArrayList;
 import java.util.LinkedList;
 import java.util.List;
 
-public class ListDataStructure {
+public class ListL1 {
 	
 	public static void main(String[] args) {
 		//LinkedList<Double> linkedList = new LinkedList<Double>();

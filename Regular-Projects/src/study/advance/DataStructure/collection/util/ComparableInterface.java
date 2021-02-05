@@ -1,4 +1,4 @@
-package study.advance.DataStructure;
+package study.advance.DataStructure.collection.util;
 
 import java.util.Collections;
 import java.util.LinkedList;
@@ -33,7 +33,7 @@ import java.util.ListIterator;
 //}
 //
 
-public class ManualSorting {
+public class ComparableInterface {
 
 	public static void main(String[] args) {		
 		System.out.println("************************************");

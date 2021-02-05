@@ -1,9 +1,9 @@
-package study.advance.DataStructure;
+package study.advance.DataStructure.collection.set;
 
 import java.util.HashSet;
 import java.util.Set;
 
-public class SetDataStructure {
+public class SetInterface {
 	public static void main(String[] args) {
 		Set<String> set = new HashSet<>();
 		set.add("Soyeb");

@@ -1,4 +1,4 @@
-package study.advance.DataStructure;
+package study.advance.DataStructure.collection.util;
 
 import java.util.ArrayList;
 

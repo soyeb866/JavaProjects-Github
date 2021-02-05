@@ -1,11 +1,11 @@
-package study.advance.DataStructure;
+package study.advance.DataStructure.collection.set;
 
 import java.util.HashSet;
 import java.util.LinkedHashSet;
 import java.util.Set;
 import java.util.TreeSet;
 
-public class TypesSet {
+public class SetTypes {
 	public static void main(String[] args) {
 		//Set<String> set = new HashSet<>(); //unorder 
 		//Set<String> set = new LinkedHashSet<>(); //order 

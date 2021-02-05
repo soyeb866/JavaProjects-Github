@@ -1,8 +1,8 @@
-package study.advance.DataStructure;
+package study.advance.DataStructure.collection;
 
 import java.util.ArrayList;
 
-public class ArrayListDataStructure {
+public class ArrayListL1 {
 
 	static ArrayList<String> list = new ArrayList<>();
 	static String item;
@@ -11,45 +11,45 @@ public class ArrayListDataStructure {
 		System.out.println("************************************");
 		System.out.println("**Add Data**");
 		// Add Items
-		ArrayListDataStructure.addArrayList(list, "Zahir");
-		ArrayListDataStructure.addArrayList(list, "Nasir");
-		ArrayListDataStructure.addArrayList(list, "Jesmin");
-		ArrayListDataStructure.addArrayList(list, "Kanon");
-		ArrayListDataStructure.addArrayList(list, "Soyeb");
+		ArrayListL1.addArrayList(list, "Zahir");
+		ArrayListL1.addArrayList(list, "Nasir");
+		ArrayListL1.addArrayList(list, "Jesmin");
+		ArrayListL1.addArrayList(list, "Kanon");
+		ArrayListL1.addArrayList(list, "Soyeb");
 
 		// Display Name
-		ArrayListDataStructure.listDisplay(list);
+		ArrayListL1.listDisplay(list);
 
 		System.out.println("************************************");
 
 		// get Data by index
 		System.out.println("**Get Data by Position**");
-		String name = ArrayListDataStructure.getArrayListByPosition(2);
+		String name = ArrayListL1.getArrayListByPosition(2);
 		System.out.println(name);
 		
 		System.out.println("************************************");
 		// get Data by name
 		System.out.println("**Get Data by Name**");
-		name = ArrayListDataStructure.getArrayListByObject("Zahir");
+		name = ArrayListL1.getArrayListByObject("Zahir");
 		System.out.println(name);
 
 		System.out.println("************************************");
 		// remove Data by Object
 		System.out.println("**Remove Data by Name**");
-		ArrayListDataStructure.removeArrayListByObject("Zahir");
-		ArrayListDataStructure.listDisplay(list);
+		ArrayListL1.removeArrayListByObject("Zahir");
+		ArrayListL1.listDisplay(list);
 
 		System.out.println("************************************");
 		// remove Data by Index
 		System.out.println("**Remove Data by Index**");
-		ArrayListDataStructure.removeArrayListByIndex(0);
-		ArrayListDataStructure.listDisplay(list);
+		ArrayListL1.removeArrayListByIndex(0);
+		ArrayListL1.listDisplay(list);
 
 		System.out.println("************************************");
 		// Edit Data by Index
 		System.out.println("**Edit Data by Index**");
-		ArrayListDataStructure.EditArrayListByIndex(0);
-		ArrayListDataStructure.listDisplay(list);
+		ArrayListL1.EditArrayListByIndex(0);
+		ArrayListL1.listDisplay(list);
 	}
 
 	private static void EditArrayListByIndex(int index) {	
